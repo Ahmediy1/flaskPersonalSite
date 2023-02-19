@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name = "author" content="Ahmed Kamhawy">
+  <meta name = "keywords" content="Resume, HTML, CSS, Research, Healthcare">
+  <title>Ahmed Kamhawy</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="static/stylesheet.css">
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <header id="nav-placeholder">
+  
+  </header>
+  <script>
+  $(document).ready(function(){ // $ calls for jQuery
+   // prepare doc before scripting jQuery
+    $("#nav-placeholder").load("static/nav_bar.html");
+  });
+  </script>
+  <main>
+    <div class="intro">
+      <h1>Ahmed Kamhawy</h1>
+      <p>Welcome to my resume site.</p>
+      <button>Learn More</button>
+    </div>
+    <div class="achievements">
+      <div class="work">
+        <i class="fas fa-atom"></i>
+        <p class="work-heading">Projects</p>
+        <p class="work-text">Lorem ipsum dolor sit amet <strong> bold </strong>consectetur <em> italics</em> adipisicing <mark> highlight </mark> <small>smaller</small> lit. Distinctio molestias modi quia, ex nemo non ducimus mollitia earum error reprehenderit delectus exercitationem accusantium cum placeat ipsa magni, molestiae vero hic.</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-skiing"></i>
+        <p class="work-heading">Skills</p>
+        <p class="work-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ea porro odio, tenetur tempore, accusantium dolorum maiores doloribus sit fugit maxime, fuga laboriosam aut deserunt! Ab, consequuntur enim. Repellat, a!</p>
+      </div>
+      <div class="work">
+        <i class="fas fa-ethernet"></i>
+        <p class="work-heading">Network</p>
+        <p class="work-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ratione aut velit aliquam amet! Itaque doloribus placeat neque quos unde illo ad? Quam aliquam dolor, corrupti eos assumenda mollitia laboriosam?</p>
+      </div>
+    </div>
+    <div class="about-me">
+      <div class="about-me-text">
+        <h2>About Me</h2>
+        <p>This is meeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.<br> crazy</p>
+      </div>
+      <img src="static/pfp.jpeg" alt="me">
+    </div>
+  </main>
+  <footer id= "footer_placeholder">
+
+  </footer>
+  <script>
+    $(document).ready(function(){
+      $("#footer_placeholder").load("static/footer.html");
+    });
+  </script>
+</body>
+
+</html>
