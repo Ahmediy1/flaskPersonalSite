@@ -12,5 +12,7 @@ print(__name__)
 def hello_world():
     return render_template("index.html")
 
-if __name__ == "__main__": #checks if this is imported module
-    app.run(debug= True) #flask run in terminal same as this
+
+#dev server - off when pushed to production (python anywhere)
+# if __name__ == "__main__": #checks if this is imported module
+#     app.run(debug= True) #flask run in terminal same as this
